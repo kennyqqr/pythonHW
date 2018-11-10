@@ -1,0 +1,2 @@
+# pythonHW
+self python training
