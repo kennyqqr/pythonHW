@@ -9,4 +9,7 @@ msgbreak = "\n\r"
 # print(msg.isnumeric())
 # print(msgw.isalpha())
 # print(msgbreak.join("join me"))
-print(msgbreak.join(msg.format(msgw)))
+# print(msgbreak.join(msg.format(msgw)))
+
+msgs = msg.split(" ")
+print(msgs)
