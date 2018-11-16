@@ -24,3 +24,7 @@ self python training
 
 1. Django practice
 2. Homework
+
+## For Fun
+
+Just doing for fun.
