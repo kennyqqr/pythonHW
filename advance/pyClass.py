@@ -1,17 +1,17 @@
 class pyClass:
-    def __init__(this):
-        this.x = 1
-        this.y = 2
+    def __init__(self):
+        self.x = 1
+        self.y = 2
         #constructor
     
-    def getX(this):
-        return this.x
-    def setX(this,x):
-        this.x = x
-    def getY(this):
-        return this.y
-    def setY(this,y):
-        this.y = y
+    def getX(self):
+        return self.x
+    def setX(self,x):
+        self.x = x
+    def getY(self):
+        return self.y
+    def setY(self,y):
+        self.y = y
 
 def callClass():
     py = pyClass()

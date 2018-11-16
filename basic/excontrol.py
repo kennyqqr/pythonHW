@@ -26,5 +26,7 @@ try:
   raise EOFError
 except NameError as e: # get exception instance
   print("Name Error:"+str(e))
+except SystemError as e:
+  print(e)
 except Exception: # no exception instance
   print("Other Error:")

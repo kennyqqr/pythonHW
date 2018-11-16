@@ -1,7 +1,9 @@
 # pythonHW
+
 self python training
 
 ## /basic
+
 1.varibles(num/string/date)
 2.if else
 3.loop(while/for)
@@ -11,6 +13,7 @@ self python training
 7.try except
 
 ## /advance
+
 1.json
 2.class
 3.lambda
@@ -18,5 +21,6 @@ self python training
 5.@ decorate
 
 ## /excercise
-1. e1
-2. e2
+
+1. Django practice
+2. Homework
