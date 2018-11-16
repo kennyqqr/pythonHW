@@ -15,9 +15,16 @@ import datetime
 #   print("The 'try except' is finished")
 
 try:
-  f = open("demo.txt",'a') # exception if use default setting
+  f = open("demo.txt",'w') # exception if use default setting
   f.write("\nnow is " + str(datetime.datetime.now()))
-except:
-  print("Something went wrong when writing to the file")
+except Exception as e:
+  print("ex msg:"+str(e))
 finally:
   f.close()
+
+try:
+  raise EOFError
+except NameError as e: # get exception instance
+  print("Name Error:"+str(e))
+except Exception: # no exception instance
+  print("Other Error:")
