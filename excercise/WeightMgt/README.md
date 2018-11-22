@@ -11,5 +11,10 @@
     python manage.py startapp daily
     python manage.py startapp reports
 
-4. create sqlite db
+4. register app on settings.py -> INSTALLED_APPS
+
+5. create models on models.py in each folder
+
+6. create/update sqlite db
+    python manage.py makemigrations
     python manage.py migrate
