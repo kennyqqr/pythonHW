@@ -27,6 +27,7 @@ self python training
         [https://docs.djangoproject.com/en/2.1/intro/install/](https://docs.djangoproject.com/en/2.1/intro/install/)
     2.Create a Django site
         1.django-admin startproject site1
+        2.python manage.py startapp myApp
     3.Create Data Models
         1.Edit models.py to add your data tables
         2.Generate db scripts by using the command: python manage.py makemigrations
