@@ -1,0 +1,9 @@
+{% load customtag %}
+<html>
+    <head>{{title}}</head>
+<body>
+    Login User:{{name}}<br />
+    Login Time:{{date|date:"D d M Y" }} {{ date|time:"H:i" }}<br />
+    Custom tag: {% returnAdd 1 2 %}<br />
+</body>
+</html>
