@@ -7,7 +7,7 @@ from datetime import datetime
 # Create your views here.
 def index(request):
     context = {
-        'title': 'Login',
+        'title': 'Welcome',
         'name' : 'Kenny',
         'date' : datetime.now()
     }

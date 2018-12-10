@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>{% block title %}{% endblock %}</title>
+<style>
+    body {
+        background-color:aliceblue;
+    }
+</style>
+</head>
+<body>
+    <div id="banner">
+        <img src="" width="100px" height="44px" />
+    </div>
+    <div id="container">
+        {% block branding %}{% endblock %}
+    </div>
+</body>
+</html>

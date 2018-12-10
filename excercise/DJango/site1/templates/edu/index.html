@@ -1,9 +1,8 @@
+{% extends "edu/base_site.html" %}
 {% load customtag %}
-<html>
-    <head>{{title}}</head>
-<body>
+{% block title %}{{title}}{% endblock %}
+{% block branding %}
     Login User:{{name}}<br />
     Login Time:{{date|date:"D d M Y" }} {{ date|time:"H:i" }}<br />
-    Custom tag: {% returnAdd 1 2 %}<br />
-</body>
-</html>
+    Custom tag: {% returnAdd date|time:"i" date|date:"d" %}<br />
+{% endblock %}

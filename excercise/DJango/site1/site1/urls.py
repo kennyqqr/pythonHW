@@ -15,7 +15,11 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
+admin.site.site_header = "Edu Admin"
+admin.site.site_title = "Edu Admin Portal"
+admin.site.index_title = "Welcome to Edu Admin Console"
+
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^edu/', include('edu.urls')),
+    url(r'^', include('edu.urls')), #set default path
+    url(r'^admin/', include(admin.site.urls)), #admin path
 ]
