@@ -16,7 +16,7 @@ class ClassroomAdmin(admin.ModelAdmin):
     # display columns in list view, show model's __str__ if no setting
     # room_space is a custom field to show capacity in words
     # room_floor shows the floor by room number (the first number)
-    list_display = ('room_number','room_space','room_floor')
+    list_display = ('room_number','room_space','room_floor','updated')
     # readonly fields in add/edit form
     # readonly_fields = ('room_number',)
 

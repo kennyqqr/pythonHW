@@ -13,6 +13,7 @@ class Classroom(models.Model):
         return self.room_number
     room_number = models.CharField(max_length=20)
     room_capacity = models.IntegerField(default=40)
+    updated = models.DateTimeField(auto_now=True,null=True)
 
 class Classes(models.Model):
     def __str__(self):
@@ -21,3 +22,4 @@ class Classes(models.Model):
     weekday = models.IntegerField(default=0)
     period = models.TimeField(null=True)
     periodend = models.TimeField(null=True)
+    updated = models.DateTimeField(auto_now=True,null=True)
